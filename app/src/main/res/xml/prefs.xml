@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="blabla">
+
+    <PreferenceCategory
+        android:title="@string/pref_system"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switchSound"
+        android:title="@string/pref_sound" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switchVibrate"
+        android:title="@string/pref_vibrate"/>
+    <PreferenceCategory
+        android:title="@string/pref_customize"/>
+    <com.it.fogarasi.norbert.f1quiz.NumberPickerPreference
+        android:key="numberPicker"
+        android:defaultValue="20"
+        android:title="Kérdések száma"/>
+</PreferenceScreen>

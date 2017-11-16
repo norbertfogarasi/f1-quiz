@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fogarasi.norbert.f1quiz.GameOverActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_game_over"
+        android:textColor="#000000"
+        android:textSize="@dimen/btn_text_size"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/tv_correct_answers"
+        android:textColor="@color/correct_answer" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/tv_incorrect_answers"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_gameover_time"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_another_game"
+        android:id="@+id/btn_another_game"
+        android:onClick="onClick"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/btn_text_size"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back_to_main_menu"
+        android:id="@+id/btn_back_to_main_menu"
+        android:onClick="onClick"
+        android:background="@drawable/button_red"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/btn_text_size"/>
+</LinearLayout>

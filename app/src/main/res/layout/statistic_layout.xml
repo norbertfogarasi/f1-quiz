@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.StatisticActivity"
+    tools:showIn="@layout/content_statistic"
+    android:padding="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tv_statistic_height"
+        android:src="@mipmap/icon_hashtag"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/tv_statistic_padding_inside"/>
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tv_statistic_height"
+        android:src="@mipmap/icon_question"
+        android:layout_weight="2"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/tv_statistic_margin_left"
+        android:padding="@dimen/tv_statistic_padding_inside"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:scaleType="centerInside"
+        android:layout_height="@dimen/tv_statistic_height"
+        android:src="@mipmap/icon_clock"
+        android:background="@color/colorAccent"
+        android:layout_weight="2"
+        android:layout_marginLeft="@dimen/tv_statistic_margin_left"
+        android:padding="@dimen/tv_statistic_padding_inside"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:scaleType="centerInside"
+        android:layout_height="@dimen/tv_statistic_height"
+        android:background="@color/colorPrimary"
+        android:layout_weight="2"
+        android:src="@mipmap/icon_correct"
+        android:layout_marginLeft="@dimen/tv_statistic_margin_left"
+        android:padding="@dimen/tv_statistic_padding_inside"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tv_statistic_height"
+        android:scaleType="centerInside"
+        android:background="@color/colorAccent"
+        android:layout_weight="2"
+        android:src="@mipmap/icon_incorrect"
+        android:layout_marginLeft="@dimen/tv_statistic_margin_left"
+        android:padding="@dimen/tv_statistic_padding_inside"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tv_statistic_height"
+        android:scaleType="centerInside"
+        android:background="@color/colorPrimary"
+        android:layout_weight="3"
+        android:src="@mipmap/icon_percentage"
+        android:layout_marginLeft="@dimen/tv_statistic_margin_left"
+        android:padding="@dimen/tv_statistic_padding_inside"/>
+</LinearLayout>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listview">
+</ListView>
+</LinearLayout>

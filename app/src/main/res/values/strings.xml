@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">F1 Quiz</string>
+    <string name="action_settings">Settings</string>
+
+    <!--MainActivity -->
+    <string name="im_content_description">F1 Quiz Background</string>
+    <string name="im_header_content_description">F1 Quiz Header</string>
+    <string name="im_bottom_content_description">F1 Quiz picture</string>
+    <string name="btn_new_game">Új játék</string>
+    <string name="btn_statistic">Statisztika</string>
+    <string name="btn_rules">Útmutató</string>
+    <string name="dialog_title">Info</string>
+    <string name="dialog_neutralbutton">OK</string>
+    <string name="img_btn_settings_description">Settings</string>
+
+    <!-- GameActivity -->
+    <string name="tv_timer">Idő:</string>
+    <string name="alertdialog_message">Biztosan ki akarsz lépni?</string>
+    <string name="alertdialog_button_positive">Kilép</string>
+    <string name="alertdialog_button_negative">Mégse</string>
+
+    <!-- SettingsActivity -->
+    <string name="pref_sound">Hang</string>
+    <string name="pref_vibrate">Vibrálás</string>
+    <string name="pref_system">Rendszer</string>
+    <string name="pref_customize">Testreszabás</string>
+
+    <!--GameOver Activity -->
+    <string name="tv_game_over">Játék vége!</string>
+    <string name="btn_another_game">Újra</string>
+    <string name="btn_back_to_main_menu">Vissza a főmenübe</string>
+    <string name="tv_number_of_questions">Kérdések száma:</string>
+    <string name="tv_correct_answers">Helyes:</string>
+    <string name="tv_incorrect_answers">Helytelen:</string>
+    <string name="tv_highscore">Rekord:</string>
+    <string name="np_flat_ok">OK</string>
+    <string name="np_flat_cancel">MÉGSE</string>
+    
+    <!--Statistic Activity -->
+    <string name="tv_id">#</string>
+    <string name="tv_questions">QUEST.</string>
+    <string name="tv_time">TIME</string>
+    <string name="tv_correct">CORR.</string>
+    <string name="tv_incorrect">INCORR.</string>
+    <string name="tv_percentage">%</string>
+    <string name="tv_no_game">Még nem játszodtál!</string>
+
+    <!-- Rules Activity -->
+    <string name="tv_bold_inditas">A játék indítása</string>
+    <string name="tv_inditas">A főmenüben található \'Új játék\' gombra kattintva lehet kezdeni egy új játékot.\nA gomb megnyomását
+        követően, egy 3 másodperces visszaszámláló fogad minket, amelynek
+        letelte után kezdődhet is a kérdések megválaszolása.</string>
+    <string name="tv_bold_jatekmenet">Játékmenet</string>
+    <string name="tv_jatekmenet">A kérdésekre 4 válaszlehetőség között kell választanunk, majd az illető
+        gombra kattintva küldhetjük válaszunkat ellenőrzésre.\nHa helyes a válaszunk, egy zöld szegély jelenik meg a gömb körül.
+        \nAmennyiben a válasz helytelen, ez a keret piros színű. \nHangjelzésekkel és
+        vibrációval is jelzést kaphatunk válaszaink helyességéről, amennyiben ezeket funkciókat bekapcsoltuk. </string>
+    <string name="tv_bold_kerdesek_szama">Kérdések száma</string>
+    <string name="tv_kerdesek_szama">A kérdések számát a főoldalon található \'Beállítások/Kérdések száma\'
+        menüpont alatt lehet megváltoztatni. A minimum kérdésszám 5.</string>
+    <string name="tv_bold_eredmenyek">Eredmények</string>
+    <string name="tv_eredmenyek">Az elért eredményeinket a főmenüben található \'Statisztika\'
+        gombra kattintva érjük el, ahol részletes kiértékelést találhatunk.</string>
+    <string name="tv_bold_hang_es_vibracio">Hang &amp; Vibráció</string>
+    <string name="tv_hang_es_vibracio">A hangot és a vibrálást a \'Beállítások\' (jobb-felső sarok) ikonra kattintva tudjuk szabályozni.</string>
+    <string name="label_rules">Útmutató</string>
+    <string name="label_statistic">Statisztika</string>
+    <string name="label_settings">Beállítások</string>
+</resources>
